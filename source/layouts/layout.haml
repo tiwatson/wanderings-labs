@@ -1,0 +1,37 @@
+!!!
+%html.no-js
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+
+    %title= page_title
+
+    %meta{:content => page_description, :name => "description"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+
+    %link{ :href => 'http://fonts.googleapis.com/css?family=Oxygen:400,300,700', :rel => 'stylesheet', :type => 'text/css' }
+
+    / = javascript_include_tag "vendor/modernizr-2.7.0.min"
+    = stylesheet_link_tag "all"
+
+  %body{class: body_class}
+    /[if lt IE 8]
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+
+    / Add your site or application content here
+    %header
+      .nav
+        .nav-inner
+          %a
+            %i.fa.fa-cogs
+            %span.brand
+              WanderingLabs
+
+    = yield
+
+    %footer
+
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+    :javascript
+      window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.10.2.min.js"><\/script>')
+    = javascript_include_tag "all"

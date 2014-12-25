@@ -40,18 +40,41 @@
 #   activate :livereload
 # end
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
 
+  def page_title
+    title = "Wandering Labs"
+    if data.page.title
+      title << " | " + data.page.title
+    end
+    title
+  end
+
+  def page_description
+    if data.page.desc
+      description = data.page.desc
+    else
+      description = ""
+    end
+    description
+  end
+
+  def body_class
+    if data.page.bodyclass
+      bodyclass = data.page.bodyclass
+    end
+    bodyclass
+  end
+end
+
+require 'font-awesome-sass'
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :haml, { :ugly => true, :format => :html5 }
 
 # Build-specific configuration
 configure :build do
@@ -70,7 +93,6 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
-
 
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                     = 'wanderinglabs.com' # The name of the S3 bucket you are targetting. This is globally unique.

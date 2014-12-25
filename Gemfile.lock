@@ -111,6 +111,8 @@ GEM
     fog-xml (0.1.1)
       fog-core
       nokogiri (~> 1.5, >= 1.5.11)
+    font-awesome-sass (4.2.2)
+      sass (~> 3.2)
     formatador (0.2.5)
     haml (4.0.6)
       tilt
@@ -231,6 +233,7 @@ DEPENDENCIES
   bitters
   bourbon
   colorize (= 0.7.3)
+  font-awesome-sass (~> 4.2.0)
   middleman (~> 3.3.7)
   middleman-livereload (~> 3.1.0)
   middleman-s3_sync

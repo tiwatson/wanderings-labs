@@ -1,0 +1,20 @@
+.nav {
+  background-color: #77b57a;
+  .nav-inner {
+    @include outer-container;
+    padding: 20px 0;
+    a {
+      color: #fff;
+      .brand {
+        // font-weight: bold;
+        font-size: $h5-font-size;
+      }
+      i {
+        vertical-align: middle;
+        margin-right: 12px;
+        margin-top: -3px;
+        font-size: 2em;
+      }
+    }
+  }
+}

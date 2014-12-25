@@ -1,0 +1,27 @@
+{
+  "projects": [{
+    "name": "Campground full?",
+    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
+    "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
+    "url": "http://reserve.wanderinglabs.com",
+    "github": "wanderinglabs-availability"
+  }, {
+    "name": "Campground full?",
+    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
+    "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
+    "url": "http://reserve.wanderinglabs.com",
+    "github": "wanderinglabs-availability"
+  }, {
+    "name": "Campground full?",
+    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
+    "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
+    "url": "http://reserve.wanderinglabs.com",
+    "github": "wanderinglabs-availability"
+  }, {
+    "name": "Campground full?",
+    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
+    "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
+    "url": "http://reserve.wanderinglabs.com",
+    "github": "wanderinglabs-availability"
+  }]
+}

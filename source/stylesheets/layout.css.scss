@@ -1,0 +1,17 @@
+.hero {
+  background: url("../images/hero.jpg") no-repeat center;
+  height: 300px;
+
+  .hero-main {
+    @include outer-container;
+
+    h4 {
+      padding-top: 50px;
+      color: $clouds;
+    }
+  }
+}
+
+.main {
+  @include outer-container;
+}
