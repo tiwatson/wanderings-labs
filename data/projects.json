@@ -1,27 +1,60 @@
 {
   "projects": [{
     "name": "Campground full?",
-    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
+    "description": "Tell us where and when you want to camp and we will keep checking Reserve America for any availabilities. Notifying you by email about open sites",
     "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
     "url": "http://reserve.wanderinglabs.com",
-    "github": "wanderinglabs-availability"
+    "github": "http://github.com/tiwatson/wanderinglabs-availability"
   }, {
-    "name": "Campground full?",
-    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
-    "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
-    "url": "http://reserve.wanderinglabs.com",
-    "github": "wanderinglabs-availability"
+    "name": "Watsons Wander Wordpress Theme",
+    "description": "Custom changes to the Roots framework theme. More details coming soon.",
+    "url": "http://watsonswander.com",
+    "built": [{
+      "name": "Wordpress",
+      "url": "http://wordpress.com"
+    }, {
+      "name": "Roots",
+      "url": "http://roots.io/"
+    }, {
+      "name": "Bootstrap",
+      "url": "http://getbootstrap.com"
+    }]
   }, {
-    "name": "Campground full?",
-    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
-    "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
-    "url": "http://reserve.wanderinglabs.com",
-    "github": "wanderinglabs-availability"
+    "name": "Amazon Affiliate in Wordpress",
+    "description": "Add selected Amazon products to Wordpress. Code and details coming soon.",
+    "built": "Wordpress, PHP",
+    "url": "http://watsonswander.com"
   }, {
-    "name": "Campground full?",
-    "description": "a short description goes here. It may be a sentence or two. There may be three sentences that explain quite a bit.",
-    "built": "Ruby on Rails, AngularJs, Bourbon, Neat",
-    "url": "http://reserve.wanderinglabs.com",
-    "github": "wanderinglabs-availability"
+    "name": "Where Map",
+    "description": "A clean way to show multiple points and travel path on a US map",
+    "built": [{
+      "name": "D3.js",
+      "url": "http://d3js.org/"
+    }],
+    "url": "http://watsonswander.com/where"
+  }, {
+    "name": "WanderingLabs.com",
+    "description": "This site. Built to show off everything else I have created.",
+    "url": "http://wanderinglabs.com",
+    "built": [{
+      "name": "Middleman",
+      "url": "http://middlemanapp.com/"
+    }, {
+      "name": "Haml",
+      "url": "http://haml.info/"
+    }, {
+      "name": "Sass",
+      "url": "http://sass-lang.com/"
+    }, {
+      "name": "Bourbon",
+      "url": "http://bourbon.io/"
+    }, {
+      "name": "Neat",
+      "url": "http://neat.bourbon.io/"
+    }, {
+      "name": "Amazon S3",
+      "url": "http://aws.amazon.com/s3/"
+    }]
+
   }]
 }

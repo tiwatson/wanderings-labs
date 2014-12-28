@@ -9,9 +9,33 @@ bodyclass:
     %h4 Blending technology with travel and possibly a bit of creativity!
 
 
-.main{:role => "main"}
-  .project-boxes
+
+.project-boxes
   - data.projects.projects.each do |project|
-    %a.project-box{ href: project.url }
-      %h3.project-title= project.name
-      %p= project.description
+    .project-box
+      .project-box-content
+        %a{ href: project.url }
+          %h3= project.name
+          %p= project.description
+
+      .project-box-buttons
+        - if project.built.present?
+          %p.built
+            - if project.built.is_a? Array
+              - project.built.each do |built_item|
+                %a{ href: built_item.url }= built_item.name
+
+            - else
+              = project.built
+
+        - if project.url.present?
+          %a{ href: project.url }
+            %button
+              %i.fa.fa-lg.fa-cog
+              View Project
+
+        - if project.github.present?
+          %a{href: project.github}
+            %button
+              %i.fa.fa-lg.fa-github
+              View Source

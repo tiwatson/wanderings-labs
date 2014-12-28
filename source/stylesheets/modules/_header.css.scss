@@ -1,12 +1,11 @@
 .nav {
   background-color: #77b57a;
   .nav-inner {
-    @include outer-container;
+    @include outer-container-padded;
     padding: 20px 0;
     a {
       color: #fff;
       .brand {
-        // font-weight: bold;
         font-size: $h5-font-size;
       }
       i {

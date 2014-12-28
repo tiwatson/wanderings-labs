@@ -30,8 +30,11 @@
     = yield
 
     %footer
+      .footer-content
+        Wandering Labs is a creation of
+        %a{ href: 'http://tiwatson.com' }Tim Watson
+        %br/
+        Find our travel blog at:
+        %a{ href: 'http://watsonswander.com' }Watsons Wander
 
-    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
-    :javascript
-      window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.10.2.min.js"><\/script>')
     = javascript_include_tag "all"
