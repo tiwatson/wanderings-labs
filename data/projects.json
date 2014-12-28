@@ -36,6 +36,7 @@
     "name": "WanderingLabs.com",
     "description": "This site. Built to show off everything else I have created.",
     "url": "http://wanderinglabs.com",
+    "github": "https://github.com/tiwatson/wanderings-labs",
     "built": [{
       "name": "Middleman",
       "url": "http://middlemanapp.com/"
