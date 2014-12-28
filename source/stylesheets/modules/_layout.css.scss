@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // background: $asbestos;
+}
+
+h1 {
+  font-size: em(36);
+}
+
 .hero {
   background: url("../images/hero.jpg") no-repeat center;
   height: 300px;
@@ -11,7 +24,6 @@
     }
   }
 }
-
 
 footer {
   @include outer-container-padded;
